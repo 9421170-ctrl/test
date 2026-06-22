@@ -413,16 +413,13 @@
             },
             "changeable": 1
         },
-        {
+         {
             "key": "快映JS",
             "name": "丨快映丨JS",
             "type": 3,
             "changeable": 0,
             "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/快映.js",
-            "ext": {
-                "host": "https://www.baidukuaiy.top",
-                "ver": 3
-            }
+            "ext": "{\"host\":\"https://www.baidukuaiy.top\",\"ver\":3}"
         },
         {
             "key": "毒舌JS",
