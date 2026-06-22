@@ -81,28 +81,7 @@
             "type": 1,
             "api": "https://jsnzkpg.us.ci"
         },
-        {
-            "key": "网盘免扫4K",
-            "name": "丨网盘丨免扫4K",
-            "type": 3,
-            "jar": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar;md5;5588c621bdcf53eb857dc1cec2897a35",
-            "api": "csp_PanTa",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "AList免扫4K",
-            "name": "丨Alist丨免扫4K",
-            "type": 3,
-            "jar": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/refs/heads/Jsnzkpg/stymei/alist.jar",
-            "api": "csp_AList",
-            "searchable": 1,
-            "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/refs/heads/Jsnzkpg/stymei/alist.json"
-        },
+
         {
             "key": "电视直播",
             "name": "丨电视丨直播",
