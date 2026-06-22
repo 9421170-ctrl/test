@@ -460,6 +460,16 @@
             "ext": "http://v.2video.cc"
         },
         {
+            "key": "八戒PY",
+            "name": "丨八戒丨PY",
+            "type": 3,
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/PY/八戒影视.py",
+            "searchable": 1,
+            "changeable": 0,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
             "key": "云播PY",
             "name": "丨云播丨PY",
             "type": 3,
