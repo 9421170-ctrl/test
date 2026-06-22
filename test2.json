@@ -1,7 +1,8 @@
 {
     "wallpaper": "https://789.st/zLP7cyj",
     "logo": "https://789.st/GlhcG1r",
-        "lives": [
+    "spider": "https://mpimg.cn/down.php/9b4f09c5743cbefd26c7991134fd9708.jpeg",
+    "lives": [
         {
             "name": "TV直播",
             "type": 1,
@@ -112,21 +113,12 @@
             "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/stymei/zbzdb.json"
         },
         {
-            "key": "alllive",
+            "key": "聚合直播",
             "name": "丨聚合丨直播",
             "type": 3,
-            "jar": "https://file.icve.com.cn/file_doc/356/881/592DC49C783D89DCDE066BF1B72AD0D3.jpg;md5;592dc49c783d89dcde066bf1b72ad0d3",
-            "api": "csp_AllliveGuard",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "timeout": 15,
-            "playerType": "2",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": "uqGL1fpJNAUN8ORQgIPD+b6l+CzC2t8="
+            "jar": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260604/DUGG/fish06042311.php;md5;9f6c103215d808201d7d7a04810c5435",
+            "api": "csp_ALLLiveFishGuard",
+            "searchable": 1
         },
         {
             "key": "聚合备用",
@@ -618,14 +610,17 @@
             "changeable": 0
         },
         {
+            "key": "88体育",
             "name": "丨88丨体育",
-            "key": "BbkqLive",
             "type": 3,
-            "api": "csp_BbkqLiveAmns",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": "https://www.88kanqiu.app,https://www.88kanqiu.la,https://www.88kanqiu.one,https://www.88kanqiu.ooo,https://www.88kanqiu.pw"
+            "jar": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260604/DUGG/fish06042311.php;md5;9f6c103215d808201d7d7a04810c5435",
+            "api": "csp_Sir88FishGuard",
+            "searchable": 0,
+            "filterable": 1,
+            "indexs": 0,
+            "style": {
+                "type": "list"
+            }
         },
         {
             "name": "丨咖啡丨体育",
@@ -640,7 +635,7 @@
             "key": "多多",
             "name": "丨多多丨体育",
             "type": 3,
-            "jar": "https://file.icve.com.cn/file_doc/356/881/592DC49C783D89DCDE066BF1B72AD0D3.jpg;md5;592dc49c783d89dcde066bf1b72ad0d3",
+            "jar": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260604/DUGG/fish06042311.php;md5;9f6c103215d808201d7d7a04810c5435",
             "api": "csp_DoubaoGuard",
             "searchable": 0,
             "quickSearch": 0,
