@@ -1,6 +1,7 @@
 {
     "wallpaper": "https://789.st/zLP7cyj",
     "logo": "https://789.st/GlhcG1r",
+    "spider": "https://zl.wpscdn.cn/2026/06/20/space_img/1222fd9e-d07d-4174-8157-21d3ac5db43a.png;md5;9b4f09c5743cbefd26c7991134fd9708",
     "lives": [
         {
             "name": "TV直播",
@@ -72,7 +73,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/stymei/paomadeng.txt"
+            "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/stymei/1paomadeng.txt"
         },
         {
             "key": "世界杯直播",
