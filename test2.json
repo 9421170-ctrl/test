@@ -597,11 +597,7 @@
             "name": "丨嘶哩丨动漫",
             "type": 3,
             "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/skapp.py",
-            "ext": {
-                "host": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/api.png",
-                "key": "ygcnbcznazmyrbdn",
-                "iv": "6571230062143708"
-            }
+            "ext": "{\"host\":\"https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/api.png\",\"key\":\"ygcnbcznazmyrbdn\",\"iv\":\"6571230062143708\"}"
         },
         {
             "name": "丨瓜子丨体育",
