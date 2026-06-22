@@ -1,7 +1,6 @@
 {
     "wallpaper": "https://789.st/zLP7cyj",
     "logo": "https://789.st/GlhcG1r",
-    //"spider": "https://gh-proxy.org/https://raw.githubusercontent.com/9421170-ctrl/test/refs/heads/main/711.png",
     "lives": [
         {
             "name": "TV直播",
@@ -69,7 +68,7 @@
             "name": "豆瓣片单",
             "type": 3,
             "api": "csp_Douban",
-            "jar": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/stymei/paomadeng.jar",
+            "jar": "https://gh-proxy.org/https://raw.githubusercontent.com/9421170-ctrl/test/refs/heads/main/711.png",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 1,
