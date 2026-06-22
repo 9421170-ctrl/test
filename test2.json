@@ -1,7 +1,7 @@
 {
     "wallpaper": "https://789.st/zLP7cyj",
     "logo": "https://789.st/GlhcG1r",
-    "spider": "https://gh-proxy.org/https://raw.githubusercontent.com/9421170-ctrl/test/refs/heads/main/711.png",
+    //"spider": "https://gh-proxy.org/https://raw.githubusercontent.com/9421170-ctrl/test/refs/heads/main/711.png",
     "lives": [
         {
             "name": "TV直播",
@@ -65,16 +65,16 @@
     ],
     "sites": [
         {
-//            "key": "豆瓣片单",
-//            "name": "豆瓣片单",
-//            "type": 3,
-//            "api": "csp_Douban",
-//            "jar": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/stymei/paomadeng.jar",
-//            "searchable": 1,
-//            "quickSearch": 0,
-//            "filterable": 1,
-//            "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/stymei/1paomadeng.txt"
-//        },
+            "key": "豆瓣片单",
+            "name": "豆瓣片单",
+            "type": 3,
+            "api": "csp_Douban",
+            "jar": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/stymei/paomadeng.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/stymei/1paomadeng.txt"
+        },
         {
             "key": "世界杯直播",
             "name": "⚽丨世界杯丨直播",
