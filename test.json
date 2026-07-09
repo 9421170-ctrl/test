@@ -60,10 +60,10 @@
             "key": "AList免扫4K",
             "name": "丨Alist丨免扫4K",
             "type": 3,
-            "jar": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/refs/heads/Jsnzkpg/stymei/alist.jar",
+            "jar": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/refs/heads/Jsnzkpg/stymei/alist.jar",
             "api": "csp_AList",
             "searchable": 1,
-            "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/refs/heads/Jsnzkpg/stymei/alist.json"
+            "ext": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/refs/heads/Jsnzkpg/stymei/alist.json"
         },
     
 
@@ -1010,7 +1010,7 @@
         {
             "name": "TV直播",
             "type": 1,
-            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/9421170-ctrl/test/refs/heads/main/test1"
+            "url": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/9421170-ctrl/test/refs/heads/main/test1"
         },
         {
             "name": "🏆世界杯直播",
@@ -1035,7 +1035,7 @@
         {
             "name": "易发TV直播",
             "type": 1,
-            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
+            "url": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
         },
         {
             "name": "咪咕TV直播",
