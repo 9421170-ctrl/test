@@ -47,7 +47,7 @@
             "key": "网盘免扫4K",
             "name": "丨网盘丨免扫4K",
             "type": 3,
-            "jar": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar;md5;5588c621bdcf53eb857dc1cec2897a35",
+            "jar": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar;md5;5588c621bdcf53eb857dc1cec2897a35",
             "api": "csp_PanTa",
             "searchable": 0,
             "filterable": 0,
@@ -60,10 +60,10 @@
             "key": "AList免扫4K",
             "name": "丨Alist丨免扫4K",
             "type": 3,
-            "jar": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/refs/heads/Jsnzkpg/stymei/alist.jar",
+            "jar": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/refs/heads/Jsnzkpg/stymei/alist.jar",
             "api": "csp_AList",
             "searchable": 1,
-            "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/refs/heads/Jsnzkpg/stymei/alist.json"
+            "ext": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/refs/heads/Jsnzkpg/stymei/alist.json"
         },
     
 
@@ -1010,7 +1010,7 @@
         {
             "name": "TV直播",
             "type": 1,
-            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/9421170-ctrl/test/refs/heads/main/test1"
+            "url": "https://v4.gh-proxy.org//https://raw.githubusercontent.com/9421170-ctrl/test/refs/heads/main/test1"
         },
         {
             "name": "🏆世界杯直播",
@@ -1030,12 +1030,12 @@
         {
             "name": "涛涛TV直播",
             "type": 1,
-            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/taoBox2620/taoBox2620/refs/heads/main/log.png"
+            "url": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/taoBox2620/taoBox2620/refs/heads/main/log.png"
         },
         {
             "name": "易发TV直播",
             "type": 1,
-            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
+            "url": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
         },
         {
             "name": "咪咕TV直播",
