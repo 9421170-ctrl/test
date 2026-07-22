@@ -1,0 +1,95 @@
+var rule = {
+    title: '临时备用源',
+    host: '',
+    // 定义内置的所有资源站 API 列表
+    apiList: [
+        { name: "18+", url: "https://19q.cc/api.php/provide/vod" },
+        { name: "⭐无水印", url: "https://api.wsyzy.net/api.php/provide/vod" },
+        { name: "⭐爬虫", url: "https://dy.7772888.xyz/api.php/tvbox" },
+        { name: "⭐极速", url: "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json" },
+        { name: "⭐暴风", url: "http://by.bfzyapi.com/api.php/provide/vod" },
+        { name: "⭐电影天堂", url: "http://dyttzyw.com/api.php/provide/vod" },
+        { name: "⭐豆瓣", url: "https://caiji.doubanzy.cc/api.php/provide/vod" },
+        { name: "⭐茅台", url: "https://caiji.maotaizy.cc/api.php/provide/vod" },
+        { name: "⭐如意", url: "http://cj.rycjapi.com/api.php/provide/vod" },
+        { name: "⭐量子", url: "https://cj.lziapi.com/api.php/provide/vod" },
+        { name: "⭐360", url: "https://360zyzz.com/api.php/provide/vod" },
+        { name: "⭐U酷", url: "https://api.ukuapi88.com/api.php/provide/vod" },
+        { name: "⭐天涯", url: "https://tyyszyapi.com/api.php/provide/vod" },
+        { name: "⭐无尽", url: "https://api.wujinapi.me/api.php/provide/vod" },
+        { name: "⭐iQIYI", url: "https://iqiyizyapi.com/api.php/provide/vod" },
+        { name: "⭐ikun", url: "https://ikunzyapi.com/api.php/provide/vod" },
+        { name: "⭐魔都", url: "https://www.mdzyapi.com/api.php/provide/vod" },
+        { name: "⭐百度云", url: "https://api.apibdzy.com/api.php/provide/vod" },
+        { name: "⭐闪电", url: "https://xsd.sdzyapi.com/api.php/provide/vod" },
+        { name: "⭐红牛", url: "https://www.hongniuzy2.com/api.php/provide/vod" },
+        { name: "⭐光速", url: "https://api.guangsuapi.com/api.php/provide/vod" },
+        { name: "⭐新浪", url: "https://api.xinlangapi.com/xinlangapi.php/provide/vod" },
+        { name: "⭐快车", url: "https://caiji.kuaichezy.org/api.php/provide/vod" },
+        { name: "⭐金鹰", url: "https://jyzyapi.com/provide/vod" },
+        { name: "⭐猫眼", url: "https://api.maoyanapi.top/api.php/provide/vod" },
+        { name: "⭐旺旺", url: "https://api.wwzy.tv/api.php/provide/vod/?ac=list" },
+        { name: "⭐虎牙", url: "https://www.huyaapi.com/api.php/provide/vod" },
+        { name: "⭐豪华", url: "https://hhzyapi.com/api.php/provide/vod" },
+        { name: "⭐速播", url: "https://subocj.com/api.php/provide/vod" },
+        { name: "⭐非凡", url: "https://ffzy1.tv/api.php/provide/vod" },
+        { name: "⭐樱花", url: "https://m3u8.apiyhzy.com/api.php/provide/vod" },
+        { name: "⭐优质", url: "http://api.yzzy-api.com/inc/apijson.php" },
+        { name: "⭐鸭鸭", url: "https://cj.yayazy.net/api.php/provide/vod" },
+        { name: "⭐牛牛", url: "https://api.niuniuzy.me/api.php/provide/vod" },
+        { name: "⭐最大", url: "http://zuidazy.me/api.php/provide/vod" },
+        { name: "⭐飘零", url: "https://p2100.net/api.php/provide/vod" },
+        { name: "⭐1080", url: "https://api.1080zyku.com/inc/apijson.php" },
+        { name: "⭐OK", url: "https://api.okzyw.net/api.php/provide/vod" },
+        { name: "⭐索尼", url: "https://suoniapi.com/api.php/provide/vod" },
+        { name: "⭐艾旦", url: "https://lovedan.net/api.php/provide/vod" }
+    ],
+    
+    url: '',
+    searchable: 1,
+    filterable: 1,
+    
+    // 一级分类加载默认从首个可用接口获取数据
+    一级: `js:
+        let d = [];
+        let targetApi = rule.apiList[0].url + '?ac=videolist&pg=fyclass';
+        try {
+            let html = request(targetApi);
+            let data = JSON.parse(html);
+            let list = data.list || [];
+            _.forEach(list, function(it) {
+                d.push({
+                    title: it.vod_name,
+                    url: it.vod_id,
+                    img: it.vod_pic,
+                    desc: it.vod_remarks || ''
+                });
+            });
+        } catch(e) {}
+        setResult(d);
+    `,
+    
+    二级: '*',
+    
+    // 聚合搜索：遍历所有内置接口进行关键词搜索
+    搜索: `js:
+        let d = [];
+        _.forEach(rule.apiList, function(item) {
+            try {
+                let searchUrl = item.url + '?ac=videolist&wd=' + encodeURIComponent(key);
+                let html = request(searchUrl);
+                let data = JSON.parse(html);
+                let list = data.list || [];
+                _.forEach(list, function(it) {
+                    d.push({
+                        title: '[' + item.name + '] ' + it.vod_name,
+                        url: it.vod_id,
+                        img: it.vod_pic,
+                        desc: it.vod_remarks || ''
+                    });
+                });
+            } catch(e) {}
+        });
+        setResult(d);
+    `
+};
