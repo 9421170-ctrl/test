@@ -1,0 +1,10 @@
+{
+    "key": "EchoTV_JS聚合",
+    "name": "备用源",
+    "type": 3,
+    "api": "https://fastly.jsdelivr.net/gh/hyluo/drpy@main/drpy.min.js",
+    "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/9421170-ctrl/test/refs/heads/main/js.json",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+}
