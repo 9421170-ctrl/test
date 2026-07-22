@@ -65,8 +65,8 @@
     ],
     "sites": [
         {
-            "key": "裤佬豆瓣片单",
-            "name": "✈️TG频道@stymei",
+            "key": "豆瓣片单",
+            "name": "豆瓣片单",
             "type": 3,
             "api": "csp_Douban",
             "jar": "https://dogpan.com/f/zmBRf4/paomadeng.jar",
